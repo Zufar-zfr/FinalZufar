@@ -98,7 +98,7 @@ function login() {
     const correctPassword = "1234";
 
     if (username === correctUsername && password === correctPassword) {
-        window.location.href = "main.html"; // Redirect to index.html
+        window.location.href = "mainn.html"; // Redirect to index.html
     } else {
         errorMsg.style.display = "block"; // Show error message
     }
